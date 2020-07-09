@@ -4,7 +4,7 @@
   "description": "A simple flexbox and grid layout example.",
   "main": "index.js",
   "scripts": {
-    "test": "npx mocha"
+    "start": "npx webpack-dev-server"
   },
   "repository": {
     "type": "git",

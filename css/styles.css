@@ -22,14 +22,19 @@ body {
   margin: 0;
 }
 
-.lane-container {
-  display: flex;
-  height: calc(100% - 80px);
+.landing {
+  box-sizing: border-box;
+  height: auto;
+  padding: 0 10% 20px 10%;
 }
 
-.lane {
-  flex: 1;
-  padding: 1%;
-  border: 1px solid darkslategrey;
-  height: 100%;
+h4 {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  line-height: 1rem;
+}
+
+.landing section ul {
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
 }

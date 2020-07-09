@@ -12,23 +12,51 @@
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet"> 
 </head>
 
-<body>
-  <div class="top-header">
-    <header>
-      <h1>Flexbox Full Screen Example</h1>
-    </header>
-  </div>
-  <div class="lane-container">
-    <div class="lane">
-      Lane 1
-    </div>
-    <div class="lane">
-      Lane 2
-    </div>
-    <div class="lane" style="flex: 2">
-      Lane 4
-    </div>
-  </div>
-  <script src="js/main.js"></script>
+<body class="landing">
+  <header>
+    <h1>Flexbox and Grid Examples</h1>
+  </header>
+
+  <section>
+    <h2>Flexbox Example</h2>
+
+    <p>
+      Here is an example using the flexbox as the layout medium.
+      <br />
+      <a href="/flexbox.html">View the flexbox example</a>
+    </p>
+
+    <h4>Advantages</h4>
+    <ul>
+      <li>Variable sized containers</li>
+      <li>Auto sizing</li>
+      <li>Auto wrapping</li>
+    </ul>
+
+    <h4>Disadvantages</h4>
+    <ul>
+      <li>Not as much granular control of the layout as grid</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Grid Example</h2>
+
+    <p>
+      Here is an example using the grid as the layout medium.
+      <br />
+      <a href="/grid.html">View the grid example</a>
+    </p>
+
+    <h4>Advantages</h4>
+    <ul>
+      <li>Variable sized containers</li>
+      <li>Fine grained control over the layout</li>
+    </ul>
+
+    <h4>Disadvantages</h4>
+    <ul>
+      <li>Much harder to do variable sized elements</li>
+    </ul>
+  </section>
 </body>
 </html>

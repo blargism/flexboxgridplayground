@@ -1,0 +1,42 @@
+.lane-container {
+  display: flex;
+  height: calc(100% - 80px);
+}
+
+.lane {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 1%;
+  border: 1px solid darkslategrey;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.lane-wide {
+  flex: 2;
+}
+
+.lane-item {
+  flex: 1;
+  margin: 1%;
+  padding: 2%;
+  box-sizing: border-box;
+  border: 1px solid lightgrey;
+}
+
+.lane-item h3 {
+  margin: 0;
+  padding: 0 0 1% 0;
+}
+
+.lane-item ul {
+  margin-left: 2%;
+  list-style-type: square;
+  font-size: 1.1rem;
+}
+
+.lane-item ul li {
+  margin-bottom: 1%;
+}

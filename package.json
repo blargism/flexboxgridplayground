@@ -1,0 +1,29 @@
+{
+  "name": "flexboxgridplayground",
+  "version": "1.0.0",
+  "description": "A simple flexbox and grid layout example.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n/a.git"
+  },
+  "keywords": [
+    "css",
+    "grid",
+    "flexbox"
+  ],
+  "author": "Joe Mills",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n/a/issues"
+  },
+  "homepage": "https://github.com/n/a#readme",
+  "dependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
